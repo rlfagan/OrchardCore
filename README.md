@@ -9,6 +9,7 @@ Orchard Core consists of two distinct projects:
 [![BSD-3-Clause License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](LICENSE)
 [![Documentation](https://readthedocs.org/projects/orchardcore/badge/)](https://docs.orchardcore.net/)
 [![Crowdin](https://badges.crowdin.net/orchard-core/localized.svg)](https://crowdin.com/project/orchard-core)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2FOrchardCore.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2FOrchardCore?ref=badge_shield)
 
 ## Local communities
 
@@ -71,3 +72,7 @@ See [CODE-OF-CONDUCT](./CODE-OF-CONDUCT.md)
 ## .NET Foundation
 
 This project is supported by the [.NET Foundation](http://www.dotnetfoundation.org).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2FOrchardCore.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2FOrchardCore?ref=badge_large)
