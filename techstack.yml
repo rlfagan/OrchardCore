@@ -1,0 +1,1578 @@
+repo_name: rlfagan/OrchardCore
+report_id: 7989b5eb460e7c59d06f6e9008025dc7
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:40:46+00:00'
+requested_by: agriffard
+provider: github
+branch: main
+detected_tools_count: 135
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: Liquid
+  description: Open-source template language written in Ruby
+  website_url: https://shopify.github.io/liquid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1746/no-img-open-source.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: Pug
+  description: Robust, elegant, feature rich template engine for nodejs
+  website_url: https://pugjs.org
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1175/pug.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/docs/requirements.txt
+  detection_source: src/docs/requirements.txt
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Benchmarks/OrchardCore.Benchmarks.csproj
+  detection_source: test/OrchardCore.Benchmarks/OrchardCore.Benchmarks.csproj
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Cms.Web/OrchardCore.Cms.Web.csproj
+  detection_source: src/OrchardCore.Cms.Web/OrchardCore.Cms.Web.csproj
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.AdminDashboard/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.AdminDashboard/package.json
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/docs/reference/modules/Elasticsearch/docker-compose.yml
+  detection_source: src/docs/reference/modules/Elasticsearch/docker-compose.yml
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package.json
+  detection_source: package.json
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Resources/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Media/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: Amazon S3
+  description: Store and retrieve any amount of data, at any time, from anywhere on
+    the web
+  website_url: http://aws.amazon.com/s3
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+  detection_source: src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.FileStorage.AzureBlob/OrchardCore.FileStorage.AzureBlob.csproj
+  detection_source: src/OrchardCore/OrchardCore.FileStorage.AzureBlob/OrchardCore.FileStorage.AzureBlob.csproj
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/OrchardCore.Apis.GraphQL.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/OrchardCore.Apis.GraphQL.csproj
+- name: GraphiQL
+  description: An in-browser IDE for exploring GraphQL
+  website_url: https://github.com/graphql/graphiql
+  version: 1.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7879/GraphiQL.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Redis.Abstractions/OrchardCore.Redis.Abstractions.csproj
+  detection_source: src/OrchardCore/OrchardCore.Redis.Abstractions/OrchardCore.Redis.Abstractions.csproj
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: Castle Core
+  description: It provides common Castle Project abstractions including logging services
+  website_url: https://github.com/castleproject/Core
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/20916/default_6d17162c9963bc83521ee29cf394f349c95173f3.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.DisplayManagement/OrchardCore.DisplayManagement.csproj
+  detection_source: src/OrchardCore/OrchardCore.DisplayManagement/OrchardCore.DisplayManagement.csproj
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 5.65.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 9.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Tests.Functional/package-lock.json
+  detection_source: test/OrchardCore.Tests.Functional/package.json
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/.github/workflows/assets_validation.yml
+  detection_source: ".github/workflows/assets_validation.yml"
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/docs/reference/modules/Elasticsearch/docker-compose.yml
+  detection_source: src/docs/reference/modules/Elasticsearch/docker-compose.yml
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+  detection_source: test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Benchmarks/OrchardCore.Benchmarks.csproj
+  detection_source: test/OrchardCore.Benchmarks/OrchardCore.Benchmarks.csproj
+- name: Polly
+  description: A .NET resilience and transient-fault-handling library
+  website_url: http://www.thepollyproject.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Fault Tolerance Tools
+  image_url: https://img.stackshare.io/service/10882/default_8657bb75f24d5f46b223b0a61477221141a8874a.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Forms/OrchardCore.Forms.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Forms/OrchardCore.Forms.csproj
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package-lock.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/docs/requirements.txt
+  detection_source: src/docs/requirements.txt
+- name: Serilog
+  description: A portable and structured logging framework to record diagnostic logs
+  website_url: http://serilog.net/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/4283/5691010.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Logging.Serilog/OrchardCore.Logging.Serilog.csproj
+  detection_source: src/OrchardCore/OrchardCore.Logging.Serilog/OrchardCore.Logging.Serilog.csproj
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/OrchardCore.sln
+  detection_source: OrchardCore.sln
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.74.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package.json
+  detection_source: package.json
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Tests.Functional/cypress-commands/package.json
+  detection_source: test/OrchardCore.Tests.Functional/cypress-commands/package.json
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+  detection_source: test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/docs/reference/modules/Elasticsearch/docker-compose.yml
+  detection_source: src/docs/reference/modules/Elasticsearch/docker-compose.yml
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 6.2.0
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Resources/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: JsPlumb
+  description: I provide a means for a developer to visually connect elements on their
+    web page. To ask questions, try the Google group. Twitter is useless for discussions.
+  website_url: https://jsplumbtoolkit.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5092/Gkz4TMkh_normal.jpg
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Workflows/package.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Workflows/package.json
+- name: Leaflet
+  description: JavaScript library for mobile-friendly interactive maps
+  website_url: http://leafletjs.com/
+  version: 1.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/2392/leaflet_upic.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Spatial/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Spatial/package.json
+- name: MailKit
+  description: A cross-platform .NET library for IMAP, POP3, and SMTP
+  website_url: https://github.com/jstedfast/MailKit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Email API
+  image_url: https://img.stackshare.io/service/7095/no-img-open-source.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Email.Core/OrchardCore.Email.Core.csproj
+  detection_source: src/OrchardCore/OrchardCore.Email.Core/OrchardCore.Email.Core.csproj
+- name: OpenID Connect
+  description: An authorization framework
+  website_url: http://openid.net/connect/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/3620/openid-icon-250x250_400x400.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.OpenId/OrchardCore.OpenId.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.OpenId/OrchardCore.OpenId.csproj
+- name: faker
+  description: Generate massive amounts of fake contextual data
+  package_url: https://www.npmjs.com/faker
+  version: 6.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Tests.Functional/package-lock.json
+  detection_source: test/OrchardCore.Tests.Functional/package.json
+  vulnerabilities:
+  - name: Removal of functional code in faker.js
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-5w9c-rv96-fr7g
+    detected_date: Mar 23
+    severity: high
+    first_patched:
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.18.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: "@babel/preset-flow"
+  description: Babel preset for all Flow plugins
+  package_url: https://www.npmjs.com/@babel/preset-flow
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16270/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 6.2.0
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Resources/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: "@types/jquery"
+  description: TypeScript definitions for jQuery
+  package_url: https://www.npmjs.com/@types/jquery
+  version: 3.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16363/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Workflows/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Workflows/package.json
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.AuditTrail/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.AuditTrail/package.json
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.AuditTrail/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.AuditTrail/package.json
+- name: all-contributors-cli
+  description: Tool to easily add recognition for new contributors
+  package_url: https://www.npmjs.com/all-contributors-cli
+  version: 6.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17020/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: assert
+  description: The assert module from Node.js, for the browser
+  package_url: https://www.npmjs.com/assert
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16188/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.27.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package-lock.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 2.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package-lock.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  version: 5.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.AuditTrail/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.AuditTrail/package.json
+- name: es6-promise
+  description: A lightweight library that provides tools for organizing asynchronous
+    code
+  package_url: https://www.npmjs.com/es6-promise
+  version: 4.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16051/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package-lock.json
+  detection_source: test/OrchardCore.Tests.Functional/cypress-commands/package.json
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 8.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: graceful-fs
+  description: A drop-in replacement for fs, making various improvements
+  package_url: https://www.npmjs.com/graceful-fs
+  version: 4.2.10
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16375/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-babel
+  description: Use next generation JavaScript, today
+  package_url: https://www.npmjs.com/gulp-babel
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15963/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-cli
+  description: Command line interface for gulp
+  package_url: https://www.npmjs.com/gulp-cli
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16957/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-debug
+  description: Debug Vinyl file streams to see what files are run through your Gulp
+    pipeline
+  package_url: https://www.npmjs.com/gulp-debug
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16648/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-header
+  description: Gulp extension to add header to file
+  package_url: https://www.npmjs.com/gulp-header
+  version: 2.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-if
+  description: Conditionally run a task
+  package_url: https://www.npmjs.com/gulp-if
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16211/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-less
+  description: Less for Gulp
+  package_url: https://www.npmjs.com/gulp-less
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16267/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-newer
+  description: Only pass through newer source files
+  package_url: https://www.npmjs.com/gulp-newer
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17700/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-postcss
+  description: PostCSS gulp plugin
+  package_url: https://www.npmjs.com/gulp-postcss
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16282/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-print
+  description: Prints names of files to the console so that you can see what's going
+    through the the gulp pipe
+  package_url: https://www.npmjs.com/gulp-print
+  version: 5.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18397/default_a5bd7c34e133c44df408ea5be09d622c7bbc461c.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 3.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-typescript
+  description: A typescript compiler for gulp with incremental compilation support
+  package_url: https://www.npmjs.com/gulp-typescript
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16141/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: js-cookie
+  description: A simple, lightweight JavaScript API for handling cookies
+  package_url: https://www.npmjs.com/js-cookie
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Resources/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: merge-stream
+  description: Create a stream that emits events from multiple other streams
+  package_url: https://www.npmjs.com/merge-stream
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16419/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: monaco-editor
+  description: A browser based code editor
+  package_url: https://www.npmjs.com/monaco-editor
+  version: 0.34.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18275/default_04867aeead13d19d0c97d0c649f8b38985a43aba.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Liquid/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Liquid/package.json
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: package.json
+- name: null-loader
+  description: A webpack loader that returns an empty module
+  package_url: https://www.npmjs.com/null-loader
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16787/default_6c86c81e45e0f08d11e77cb7e07388a0317cf081.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 13.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.AuditTrail/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.AuditTrail/package.json
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Themes/TheAgencyTheme/Assets/package-lock.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: sortablejs
+  description: JavaScript library for reorderable drag-and-drop lists on modern browsers
+    and touch devices
+  package_url: https://www.npmjs.com/sortablejs
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17481/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Resources/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 9.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: upath
+  description: A proxy to `path`
+  package_url: https://www.npmjs.com/upath
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18193/default_63c787c86dc2f82d999c8bfdd3f0cd4aa18c2145.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/package-lock.json
+  detection_source: src/OrchardCore.Themes/TheAgencyTheme/Assets/package.json
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Resources/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: vuedraggable
+  description: Draggable component for vue
+  package_url: https://www.npmjs.com/vuedraggable
+  version: 2.24.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17468/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Resources/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Resources/package.json
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package-lock.json
+  detection_source: src/OrchardCore.Modules/OrchardCore.Apis.GraphQL/package.json
+- name: AWSSDK.Extensions.NETCore.Setup
+  description: Extensions for the AWS SDK for .NET to integrate with .NET Core configuration
+    and dependency injection frameworks
+  package_url: https://www.nuget.org/AWSSDK.Extensions.NETCore.Setup
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13789/default_300517a0879bc10cd5f0e9cabc8af8536f57ba23.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+  detection_source: src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+- name: AWSSDK.S3
+  description: Amazon Simple Storage Service
+  package_url: https://www.nuget.org/AWSSDK.S3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13054/default_9a42ff760d96a634e61dad6d7a7d76e2d1506229.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+  detection_source: src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+- name: AWSSDK.SecurityToken
+  description: The AWS Security Token Service
+  package_url: https://www.nuget.org/AWSSDK.SecurityToken
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14179/default_0c3398e5ddb91832a848d16554c86b81334b54d2.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+  detection_source: src/OrchardCore/OrchardCore.FileStorage.AmazonS3/OrchardCore.FileStorage.AmazonS3.csproj
+- name: AngleSharp
+  description: AngleSharp is the ultimate angle brackets parser library
+  package_url: https://www.nuget.org/AngleSharp
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13174/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+  detection_source: test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+- name: BenchmarkDotNet
+  description: Powerful .NET library for benchmarking
+  package_url: https://www.nuget.org/BenchmarkDotNet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14365/default_90e7ce697521dd13e8eb643d3771c2a0e4e6d561.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Benchmarks/OrchardCore.Benchmarks.csproj
+  detection_source: test/OrchardCore.Benchmarks/OrchardCore.Benchmarks.csproj
+- name: HtmlSanitizer
+  description: Cleans HTML from constructs that can be used for cross site scripting
+  package_url: https://www.nuget.org/HtmlSanitizer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14219/default_db0392ac0437007314492dc2fcd84e85a9039eb4.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Infrastructure/OrchardCore.Infrastructure.csproj
+  detection_source: src/OrchardCore/OrchardCore.Infrastructure/OrchardCore.Infrastructure.csproj
+- name: Jint
+  description: Javascript interpreter for .NET which provides full ECMA 5.1 compliance
+  package_url: https://www.nuget.org/Jint
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13539/default_acafa9133bcbebb2b966c9340c23194c2f9bf7bc.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Scripting.JavaScript/OrchardCore.Scripting.JavaScript.csproj
+  detection_source: src/OrchardCore/OrchardCore.Scripting.JavaScript/OrchardCore.Scripting.JavaScript.csproj
+- name: Lucene.Net
+  description: Lucene.Net is a full-text search engine library capable of advanced
+    text analysis, indexing, and searching
+  package_url: https://www.nuget.org/Lucene.Net
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13172/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Search.Lucene.Abstractions/OrchardCore.Search.Lucene.Abstractions.csproj
+  detection_source: src/OrchardCore/OrchardCore.Search.Lucene.Abstractions/OrchardCore.Search.Lucene.Abstractions.csproj
+- name: Lucene.Net.Analysis.Common
+  description: The Apache Software Foundation Analysis.Common Component of the Lucene.Net
+    full-text search engine library
+  package_url: https://www.nuget.org/Lucene.Net.Analysis.Common
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14200/default_5fa276b9a17d8ee683305dd5b0c9bd46a2e6685c.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Search.Lucene/OrchardCore.Search.Lucene.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Search.Lucene/OrchardCore.Search.Lucene.csproj
+- name: Lucene.Net.QueryParser
+  description: Query parsers and parsing framework for the Lucene.Net full-text search
+    engine library from The Apache Software Foundation
+  package_url: https://www.nuget.org/Lucene.Net.QueryParser
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14464/default_2997d988b3d74cd1b8ba1ec222f5f73b189d1dfe.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Search.Lucene/OrchardCore.Search.Lucene.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Search.Lucene/OrchardCore.Search.Lucene.csproj
+- name: Markdig
+  description: A fast, powerful, CommonMark compliant, extensible Markdown processor
+    for .NET with 20+ builtin extensions
+  package_url: https://www.nuget.org/Markdig
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13338/default_24f30a6aa060dc11b9cd4dd1d52905db9245e978.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Markdown/OrchardCore.Markdown.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Markdown/OrchardCore.Markdown.csproj
+- name: Microsoft.AspNetCore.Authentication.Facebook
+  description: ASP.NET Core middleware that enables an application to support Facebook's
+    OAuth 2.0 authentication workflow
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.Facebook
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14097/default_195724d663e61862dc96472f77d3488ce3d1d531.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Facebook/OrchardCore.Facebook.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Facebook/OrchardCore.Facebook.csproj
+- name: Microsoft.AspNetCore.Authentication.Google
+  description: ASP.NET Core contains middleware to support Google's OpenId and OAuth
+    2.0 authentication workflows
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.Google
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13881/default_e637dea816bab62ca037ba8b354e359bd6438b40.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Google/OrchardCore.Google.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Google/OrchardCore.Google.csproj
+- name: Microsoft.AspNetCore.Authentication.MicrosoftAccount
+  description: ASP.NET Core middleware that enables an application to support the
+    Microsoft Account authentication workflow
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.MicrosoftAccount
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14096/default_b83e8bc58faf2b296cff1198fce442f2bb64617b.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Microsoft.Authentication/OrchardCore.Microsoft.Authentication.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Microsoft.Authentication/OrchardCore.Microsoft.Authentication.csproj
+- name: Microsoft.AspNetCore.Authentication.OpenIdConnect
+  description: ASP.NET Core middleware that enables an application to support the
+    OpenID Connect authentication workflow
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.OpenIdConnect
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13385/default_97f005023342604c2e0668a9597b9eb6971b1d06.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.OpenId/OrchardCore.OpenId.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.OpenId/OrchardCore.OpenId.csproj
+- name: Microsoft.AspNetCore.Authentication.Twitter
+  description: ASP.NET Core middleware that enables an application to support Twitter's
+    OAuth 1.0 authentication workflow
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.Twitter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14898/default_ce746b3db6f4aa89eed846c1c76d282976b5e8e4.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Twitter/OrchardCore.Twitter.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Twitter/OrchardCore.Twitter.csproj
+- name: Microsoft.AspNetCore.Mvc.NewtonsoftJson
+  description: ASP.NET Core MVC features that use Newtonsoft.Json
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc.NewtonsoftJson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13258/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Mvc.Core/OrchardCore.Mvc.Core.csproj
+  detection_source: src/OrchardCore/OrchardCore.Mvc.Core/OrchardCore.Mvc.Core.csproj
+- name: Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+  description: Runtime compilation support for Razor views and Razor Pages in ASP.NET
+    Core MVC
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14475/default_e2210dba7a410b29af824a406b1ff3bc92763715.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Cms.Web/OrchardCore.Cms.Web.csproj
+  detection_source: src/OrchardCore.Cms.Web/OrchardCore.Cms.Web.csproj
+- name: Microsoft.Extensions.Caching.StackExchangeRedis
+  description: Distributed cache implementation of Microsoft.Extensions.Caching.Distributed.IDistributedCache
+    using Redis
+  package_url: https://www.nuget.org/Microsoft.Extensions.Caching.StackExchangeRedis
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14129/default_b83e8bc58faf2b296cff1198fce442f2bb64617b.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Redis.Abstractions/OrchardCore.Redis.Abstractions.csproj
+  detection_source: src/OrchardCore/OrchardCore.Redis.Abstractions/OrchardCore.Redis.Abstractions.csproj
+- name: MimeKit
+  description: MimeKit is an Open Source library for creating and parsing MIME, S/MIME
+    and PGP messages on desktop and mobile platforms
+  package_url: https://www.nuget.org/MimeKit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13509/default_a5f7e489f1a0992baa6377c8f765ce325404bce2.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Infrastructure/OrchardCore.Infrastructure.csproj
+  detection_source: src/OrchardCore/OrchardCore.Infrastructure/OrchardCore.Infrastructure.csproj
+- name: MiniProfiler.AspNetCore.Mvc
+  description: Lightweight mini-profiler
+  package_url: https://www.nuget.org/MiniProfiler.AspNetCore.Mvc
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14604/default_7d49b0948a685db1e30858feca30f3829968d62e.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.MiniProfiler/OrchardCore.MiniProfiler.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.MiniProfiler/OrchardCore.MiniProfiler.csproj
+- name: NEST
+  description: Strongly typed interface to Elasticsearch
+  package_url: https://www.nuget.org/NEST
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13086/default_f40625acd95121d452edf898b600c5691551f727.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Search.Elasticsearch/OrchardCore.Search.Elasticsearch.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Search.Elasticsearch/OrchardCore.Search.Elasticsearch.csproj
+- name: NJsonSchema
+  description: JSON Schema reader, generator and validator for .NET
+  package_url: https://www.nuget.org/NJsonSchema
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13354/default_4d4f20064faa1a784f764c1e08d3b0e36273065c.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Tenants/OrchardCore.Tenants.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Tenants/OrchardCore.Tenants.csproj
+- name: NLog.Web.AspNetCore
+  description: NLog LoggerProvider for Microsoft.Extensions.Logging and ASP.NET Core
+    platform
+  package_url: https://www.nuget.org/NLog.Web.AspNetCore
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13283/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Logging.NLog/OrchardCore.Logging.NLog.csproj
+  detection_source: src/OrchardCore/OrchardCore.Logging.NLog/OrchardCore.Logging.NLog.csproj
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Abstractions/OrchardCore.Abstractions.csproj
+  detection_source: src/OrchardCore/OrchardCore.Abstractions/OrchardCore.Abstractions.csproj
+- name: NodaTime
+  description: Noda Time is a date and time API acting as an alternative to the built-in
+    DateTime/DateTimeOffset etc types built into the .NET framework
+  package_url: https://www.nuget.org/NodaTime
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13041/default_0af6f5844ebd9062a9a4895d909753dc8447f2f3.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore/OrchardCore.csproj
+  detection_source: src/OrchardCore/OrchardCore/OrchardCore.csproj
+- name: Serilog.AspNetCore
+  description: Serilog support for ASP.NET Core logging
+  package_url: https://www.nuget.org/Serilog.AspNetCore
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13194/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore/OrchardCore.Logging.Serilog/OrchardCore.Logging.Serilog.csproj
+  detection_source: src/OrchardCore/OrchardCore.Logging.Serilog/OrchardCore.Logging.Serilog.csproj
+- name: YesSql.Core
+  description: Package Description
+  package_url: https://www.nuget.org/YesSql.Core
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14633/default_dface933b5d8f015d323c0d4d738f7853715afbe.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.AuditTrail/OrchardCore.AuditTrail.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.AuditTrail/OrchardCore.AuditTrail.csproj
+- name: ncrontab
+  description: NCrontab is crontab for all .NET runtimes supported by .NET Standard
+    1.0
+  package_url: https://www.nuget.org/ncrontab
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13733/default_c808e5efd12918d9e4012a8f2ffed58ef32bdf6c.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/OrchardCore.Modules/OrchardCore.Workflows/OrchardCore.Workflows.csproj
+  detection_source: src/OrchardCore.Modules/OrchardCore.Workflows/OrchardCore.Workflows.csproj
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+  detection_source: test/OrchardCore.Abstractions.Tests/OrchardCore.Abstractions.Tests.csproj
+- name: pymdown-extensions
+  description: Extension pack for Python Markdown
+  package_url: https://pypi.org/project/pymdown-extensions
+  version: '9.7'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20736/default_d7016f3b81d6dea370b4e255c96d7e3aa7e34373.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/docs/requirements.txt
+  detection_source: src/docs/requirements.txt
+  vulnerabilities:
+  - name: Any file can be included with the pymdown-snippets extension
+    cve_id: CVE-2023-32309
+    cve_url: https://github.com/advisories/GHSA-jh85-wwv9-24hv
+    detected_date: May 16
+    severity: high
+    first_patched: '10.0'
+- name: mkdocs-material
+  description: A Material Design theme for MkDocs
+  package_url: https://pypi.org/project/mkdocs-material
+  version: 8.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/rlfagan/OrchardCore/blob/main/src/docs/requirements.txt
+  detection_source: src/docs/requirements.txt
